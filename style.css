@@ -165,9 +165,7 @@
          background-color: rgba(0, 0, 0, 0.662);
     
     }
- a:active{
-         color:blue;
-       }
+ 
        a:hover{
          color: aqua;
        }
