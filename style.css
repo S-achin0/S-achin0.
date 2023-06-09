@@ -1,4 +1,4 @@
- 
+  
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
  *{
     box-sizing: border-box;
@@ -6,7 +6,7 @@
  }
  :root{
     --primary-color:white;
-    --secondry-color:whitesmoke;
+    --secondry-color:white;
  }
  body{
     background-color: var(--primary-color);
@@ -39,7 +39,7 @@
   
  .search{
     background-color: transparent;
-    border: 2px solid var(--primary-color);
+    border: 2px solid  black;
    padding:0.5rem 1rem;
    border-radius: 50px;
    font-size:1rem;
@@ -48,7 +48,8 @@
  }
  .search.focus{
     outline:0;
-    background-color: var(--primary-color);
+    
+    border: 10px;
 
  }
  .search::placeholder{
@@ -67,6 +68,7 @@
     position: relative;
     overflow:hidden;
     box-shadow: 0 0 2px 0;
+    
  }
  .movie img{
     width:350px;
@@ -83,7 +85,7 @@
  .movie_info h3{
     margin-top: 0;
     margin-left: 0;
-    color: cornflowerblue;
+    color: rgb(237, 100, 159);
  }
   
  
@@ -116,6 +118,7 @@
  div.about{
     line-height: 225%;
     font-weight: 500;
+      
  }
   
   hr{
@@ -138,10 +141,8 @@
     width: 150px;
     height: 30px;
     border-radius: 5px;
-    position: relative;
-    top: 160px;
-    left: 10px;
-
+    position: inherit;
+     
 
   }
   .submit{
@@ -162,4 +163,5 @@
          background-color: rgba(0, 0, 0, 0.662);
     
     }
+       
   
