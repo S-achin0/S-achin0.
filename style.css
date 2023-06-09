@@ -111,7 +111,7 @@
     display: block;
      
     text-decoration: none;
-    color: black;
+    
     
     
  }
@@ -165,5 +165,15 @@
          background-color: rgba(0, 0, 0, 0.662);
     
     }
+ a:active{
+         color:blue;
+       }
+       a:hover{
+         color: aqua;
+       }
+       a{
+         color: black;
+       }
+  
        
   
