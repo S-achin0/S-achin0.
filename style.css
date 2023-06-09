@@ -122,6 +122,8 @@
  }
   
   hr{
+     position: relative;
+   top:20px;
     margin: 0 0 0 0;
      font-weight: bold;
   }
